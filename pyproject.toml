@@ -1,6 +1,6 @@
 [project]
 name = "time-control"
-version = "0.0.4" 
+version = "0.0.1" 
 authors = [{name="Matt Rhoads", email="mrhoads1@gmail.com"}]
 description = "Simple Python CLI for printing time in multiple time zones."
 readme = "README.md"
@@ -11,7 +11,7 @@ keywords = ["timezone", "time", "control", "cli"]
 dependencies = ["arrow", "click"]
 
 [project.urls]
-"Homepage" = "https://thing"
+"Homepage" = "https://github.com/rckwzrd/time-control"
 
 [project.scripts]
 time-control = "time_control.time_control:main"

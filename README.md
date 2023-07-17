@@ -1,9 +1,9 @@
-# Time-Control
+# Time-Zap
 
 Simple Python CLI for printing time in multiple time zones.
 
 ```bash
-pop-os:$ time-control
+pop-os:$ time-zap
 -------------------
 CDT 06:22:16 -05:00
 -------------------
@@ -15,7 +15,7 @@ PDT 04:22:16 -07:00
 ```
 
 ```bash
-pop-os:$ time-control 1337
+pop-os:$ time-zap 1337
 -------------------
 CDT 13:37:00 -05:00
 -------------------
@@ -28,8 +28,8 @@ PDT 11:37:00 -07:00
 
 Help:
 ```bash
-pop-os:$ time-control --help
-Usage: time-control [OPTIONS] [TIME]
+pop-os:$ time-zap --help
+Usage: time-zap [OPTIONS] [TIME]
 
   Simple Python CLI for printing time in multiple time zones.
 

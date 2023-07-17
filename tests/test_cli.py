@@ -2,7 +2,7 @@ import pytest
 import arrow
 
 from click.testing import CliRunner
-from time_control.time_control import (
+from cli import (
     main,
     check_time,
     make_time,

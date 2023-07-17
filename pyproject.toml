@@ -1,5 +1,5 @@
 [project]
-name = "time-control"
+name = "time-zap"
 version = "0.0.1" 
 authors = [{name="Matt Rhoads", email="mrhoads1@gmail.com"}]
 description = "Simple Python CLI for printing time in multiple time zones."
@@ -7,14 +7,14 @@ readme = "README.md"
 license = {file = "LICENSE.txt"}
 requires-python = ">=3.8"
 classifiers = ["Programming Language :: Python :: 3"]
-keywords = ["timezone", "time", "control", "cli"]
+keywords = ["time", "cli"]
 dependencies = ["arrow", "click"]
 
 [project.urls]
-"Homepage" = "https://github.com/rckwzrd/time-control"
+"Homepage" = "https://github.com/rckwzrd/time-zap"
 
 [project.scripts]
-time-control = "time_control.time_control:main"
+time-zap= "cli:main"
 
 [project.optional-dependencies]
 dev = ["build", "pytest", "twine"]

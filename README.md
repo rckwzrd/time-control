@@ -2,6 +2,7 @@
 
 Simple Python CLI for printing time in multiple time zones.
 
+Default `now`:
 ```bash
 pop-os:$ time-spread
 -------------------
@@ -14,6 +15,7 @@ PDT 04:22:16 -07:00
 -------------------
 ```
 
+Pass 24HR time:
 ```bash
 pop-os:$ time-spread 1337
 -------------------
@@ -36,3 +38,7 @@ Usage: time-spread [OPTIONS] [TIME]
 Options:
   --help  Show this message and exit.
 ```
+
+TODO:
+- configure main timezone
+- make executable on windows machine

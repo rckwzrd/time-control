@@ -1,5 +1,5 @@
 [project]
-name = "time-zap"
+name = "time-spread"
 version = "0.0.1" 
 authors = [{name="Matt Rhoads", email="mrhoads1@gmail.com"}]
 description = "Simple Python CLI for printing time in multiple time zones."
@@ -11,10 +11,10 @@ keywords = ["time", "cli"]
 dependencies = ["arrow", "click"]
 
 [project.urls]
-"Homepage" = "https://github.com/rckwzrd/time-zap"
+"Homepage" = "https://github.com/rckwzrd/time-spread"
 
 [project.scripts]
-time-zap= "cli:main"
+time-spread= "cli:main"
 
 [project.optional-dependencies]
 dev = ["build", "pytest", "twine"]
